@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+p ,h3,h4,h5, input, span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100vw;
+    height: 80vh;
+    background: url(/img/1.jpeg) no-repeat ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header img{
+    width: 150px;
+    margin-bottom: 5vh;
+}
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.line_star_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line_star_container img{
+    width: 20px;
+}
+.mini_star_hr{
+    background-color: darkgray;
+    height: 2px;
+    width: 150px;
+}
+.m-10{
+    margin-top: 10vh;
+}
+
+.red{
+    color: red;
+}
+
+.biography_h1_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.biography_h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    margin: 3vh auto 6vh auto;
+}
+
+.biography_paper{
+    width: 30vw;
+}
+
+.biography_cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.biography_card{
+    width: 35vw;
+    height: 58vh;
+    background: url(/img/paper.png) no-repeat ;
+    margin-left: 3vw;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.biography_img{
+    width: 80%;
+}
+
+.biography_h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2vh;
+}
+
+.biography_p{
+    font-size: 13px;
+    opacity: 0.4;
+    margin-top: 2vh;
+    
+}
+.orange{
+    color: darkorange;
+}
+
+.menu_columns_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.menu_column{
+    border: 6px solid rgba(112, 112, 112, 0.1);
+    outline: 15px solid white;
+    -webkit-box-shadow: 0px 0px 16px 9px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 16px 9px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 16px 9px rgba(34, 60, 80, 0.2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu_column:hover{
+    -webkit-box-shadow: -6px 32px 16px 26px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -6px 32px 16px 26px rgba(34, 60, 80, 0.2);
+box-shadow: -6px 32px 16px 26px rgba(34, 60, 80, 0.2);
+}
+.menu_hr{
+    height: 5px;
+    width: 80%;
+    background-color: rgba(112, 112, 112, 0.1);
+    margin: 2vh;
+}
+
+.menu_h3{
+    font-size: 22px;
+    font-weight: bold;
+    color: darkorange;
+    margin-top: 2vh;
+}
+
+.menu_meal{
+    float: left;
+    width: 20vw;
+    margin-bottom: 5vh;
+}
+
+.meal_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    float: left;
+    margin: 1vw 1vw 0 2vh;
+}
+.meal_h4{
+    font-size: 18px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    line-height: 23px;
+}
+.meal_p{
+    font-size: 14px;
+    text-align: left; 
+    opacity: 0.4;
+    line-height: 20px;
+    padding: 5px;
+}
+.m-5-l{
+    margin-left: 5vw;
+}
+
+.meal_text{
+    margin-top: 3vh;
+}
+
+.lastMeal_meal_img{
+    width: 200px;
+}
+.lastMeal_column_card{
+    display: flex;
+    flex-direction: column;
+}
+.lastMeal_cards_container{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: center;
+}
+.meal_card{
+    width: 200px;
+    background-color: rgb(56, 56, 56);
+    margin: 0 0 3vh 3vh;
+}
+
+.lastMeal_meal_h4{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 1vh auto;
+    text-align: left;
+    line-height: 25px;
+}
+
+.lastMeal_text{
+    padding: 15px;
+}
+
+.lastMeal_meal_p{
+    font-size: 11px;
+    opacity: 0.4;
+    text-align: left;
+    line-height: 17px;
+    color: #999;
+}
+
+.coments_h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 6vh auto;
+}
+.coment_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coment_p{
+    font-style: italic;
+    color: black;
+    opacity: 0.4;
+    position: relative;
+}
+.coment_quote{
+    width: 60px;
+
+}
+.coment_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.coment_stars{
+    width: 100px;
+    margin-top: 2vh;
+}
+
+#coments{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.coment_h5{
+    color: darkorange;
+}
+.h5_coment_hr{
+    width: 15px;
+    height: 1px;
+    background-color: darkorange;
+}
+.h5_coment_block{
+    display: flex;
+    align-items: center;
+}
+
+.coment{
+    margin-top: 10vh;
+}
+
+.input_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_first{
+    padding: 15px;
+    width: 25vw;
+    font-size: 17px;
+    color: #999;
+    outline: none;
+    border: #999 solid ;
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+
+.second_input{
+    height: 10vw;
+    padding: 15px;
+    width: 55vw;
+    font-size: 17px;
+    color: #999;
+    outline: none;
+    border: #999 solid ;
+    margin-top: 5vh;
+    margin-left: 5vw;
+
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_button{
+    padding: 2vh 3vw;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 25vw;
+    margin-top: 5vh;
+}
+
+.icon{
+    width: 30px;
+    opacity: 1;
+
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.line_icons{
+    display: flex;
+    align-items: center;
+}
+
+.icon_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.4;
+    margin-left: 1vw;
+}
+
+.span{
+    color: white;
+    margin-top: 3vh;
+}
+
+@media(max-width:720px){
+    .biography_cards{
+        flex-direction: column;
+        width: 100vw;
+
+    }
+    .biography_card{
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .biography_card h3{
+        margin-left: 30vw;
+    }
+    .menu_columns_container{
+        flex-direction: column;
+    }
+    .menu_column p,h3,h2,h4{
+        width: 100vw;
+    }
+    .menu_column{
+        margin-top: 10vh;
+    }
+    .lastMeal_cards_container{
+        flex-direction: column;
+    }
+    .coment{
+        width: 40vw;
+
+    }
+    .coments_h3{
+        width: 200px;
+    }
+}
